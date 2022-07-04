@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletalleres.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <title>PlanetaFriki</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">Planeta PlanetaFriki</h2>
+        <input type="checkbox" name="#" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="freekcon.html">FreekCon</a>
+            <a href="talleres.html">Talleres</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
+    </header>
+    <section id="banner">
+        <div class="contenido-banner">
+         <h1 class="free-titu">TALLERES</h1>
+         <P class="freeparra">Talleres variados para todas las edades, entre ellos, programacion de android, inciacion a la robotica con arduino, talleres de dibujo, grafiti, papercraf entre otros!</P>
+         <h2 class="free-titu">QUIENES DICTAN LOS TALLERES?</h2>
+         <P class="freeparra">Nuestros talleres son dictados por voluntarios Lorem ipsum dolor sit amet.</P>
+         <h3 class="free-titu">DEBO PAGAR?</h3>
+         <P class="freeparra">Todos nuestros talleres son completamente gratuitos y abiertos a la comunidad!</P>
+        </div>
+    
+    </section>
+    <section class="new-cards">
+      <div class="card" style="width: 18rem;">
+        <img src="/pagina/img/talleres/1.png" class="card-img-top" alt="Arduino">
+        <div class="card-body">Taller de Arduino:
+          <p class="card-text">Robótica basada en procesadores Arduino.
+            Conocimientos básicos de electrónica y programación orientados a su aplicación en la construcción de unidades robóticas de aplicaciones varias.
+            Uso de diferentes tipos de sensores asociados. -
+            Manejo de diferentes tipos de unidades de control: Motores paso a paso, relays, servos, etc. </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/pagina/img/talleres/android.jpg" class="card-img-top" alt="Android">
+        <div class="card-body">Taller de Android:
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus provident suscipit quod aperiam voluptatibus culpa.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/pagina/img/talleres/reciclado.jpg" class="card-img-top" alt="Arte con Reciclado">
+        <div class="card-body"> Taller de Arte con Materiales Reciclados:
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eum facilis totam perspiciatis neque accusantium?</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/pagina/img/talleres/1.png" class="d-block w-100" alt="1">
+          </div>
+          <div class="carousel-item active">
+            <img src="/pagina/img/talleres/2.png" class="d-block w-100" alt="1">
+          </div>
+          <div class="carousel-item active">
+            <img src="/pagina/img/talleres/3.png" class="d-block w-100" alt="1">
+          </div>
+          <div class="carousel-item active">
+            <img src="/pagina/img/talleres/4.png" class="d-block w-100" alt="1">
+          </div>
+          <div class="carousel-item active">
+            <img src="/pagina/img/talleres/5.png" class="d-block w-100" alt="1">
+          </div>
+          <div class="carousel-item active">
+            <img src="/pagina/img/talleres/6.png" class="d-block w-100" alt="1">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="contacto">
+        <h4>Contacta Con Nosotros.</h4>
+        <form action="#">
+            <div class="datos-form">
+                <div class="nombre">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="mensaje">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="18" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="boton-formulario">
+                <a href="#" class="botonfreekcon">Enviar Mensaje</a>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>&copy;2022 PlanetaFriki</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
